@@ -14,6 +14,13 @@
 */
 
 
+//step 5
+function RandomInt(lowest, size){
+   var randy = Math.floor(Math.random()*size + lowest);
+   return randy;
+}
+RandomInt(0,10);
+
 function getQuote(n) {
    var quotes = [
    "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
